@@ -1,0 +1,7 @@
+{
+  "Lua.workspace.ignoreDir": [
+    ".**",
+    "git"
+  ],
+  "Lua.runtime.version": "LuaJIT"
+}
