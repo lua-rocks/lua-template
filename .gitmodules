@@ -1,0 +1,12 @@
+[submodule "git/lume"]
+	path = git/lume
+	url = git@github.com:rxi/lume.git
+[submodule "git/inspect"]
+	path = git/inspect
+	url = git@github.com:kikito/inspect.lua.git
+[submodule "git/log"]
+	path = git/log
+	url = git@github.com:lua-rocks/log.lua.git
+[submodule "git/proto"]
+	path = git/proto
+	url = git@github.com:lua-rocks/proto.git

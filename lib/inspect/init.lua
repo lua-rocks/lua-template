@@ -1,1 +1,4 @@
-return require "git.inspect.inspect"
+---@type lib.inspect
+local inspect = require("git.inspect.inspect")
+
+return inspect

@@ -1,8 +1,9 @@
----@diagnostic disable: lowercase-global
 -- luacheck: no global
 
-new_globals = {"love", "lume", "inspect", "dump"}
+quiet = 1
 
-exclude_files = {"**/.*", "git/**"}
+new_globals = { "_", "inspect", "dump", "devmode", "log", "proto" }
+
+exclude_files = { "**/.*", "git", "doc" }
 
 std = "max"
