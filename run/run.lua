@@ -1,3 +1,3 @@
 print("\n===================RUN==================\n")
 
-require("src.helloworld")
+require("init")
