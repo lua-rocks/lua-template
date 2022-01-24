@@ -1,3 +1,3 @@
 require("src.globals.development")
 
-print("Hello World!")
+dump({ "Hello", "World!" })

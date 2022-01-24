@@ -4,10 +4,13 @@ devmode = true
 
 inspect = require("inspect")
 
----Print inspection of the variable.
----@param ... any
+--- Debugging any variable with `lib.log` and `lib.inspect`
+---
+---```lua
+---dump({ "Hello", "World!" })
+---```
 function dump(...)
-  print(inspect(...))
+  log.debug(inspect(...))
 end
 
 log.info("initialized in development mode")
