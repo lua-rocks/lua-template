@@ -7,6 +7,6 @@ package.path = path .. package.path
 package.cpath = cpath .. package.cpath
 
 log = require("log")
-log.usecolor = false
+log.usecolor = true
 
 proto = require("proto")
