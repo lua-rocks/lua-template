@@ -2,7 +2,7 @@ require("src.globals")
 
 devmode = true
 
-inspect = require("inspect")
+inspect = require("lib.any.inspect")
 
 --- Debugging any variable with `lib.any.log` and `lib.any.inspect`
 ---
