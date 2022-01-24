@@ -9,6 +9,5 @@ if not succes then
   log.outfile = "crash.log"
   log.fatal(result)
 
-  local execute = require("lib.os.execute")
-  execute("notify-send \"" .. result .. "\"")
+  os.execute("notify-send \"" .. result .. "\"")
 end
