@@ -14,6 +14,7 @@ format compatible with [sumneko-language-server][].
 - Clone your fork
 - Install dependencies: `lua run/install.lua`
 - Update submodules: `lua run/update.lua`
+- Run helloworld: `lua run/default.lua`
 
 ## Content
 
