@@ -6,7 +6,7 @@ local cpath = ";lib/?/init.so;" .. ";lib/?.so;"
 package.path = path .. package.path
 package.cpath = cpath .. package.cpath
 
-log = require("log")
+log = require("any.log")
 log.usecolor = true
 
 proto = require("proto")
