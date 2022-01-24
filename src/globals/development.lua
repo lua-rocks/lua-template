@@ -4,7 +4,7 @@ devmode = true
 
 inspect = require("inspect")
 
---- Debugging any variable with `lib.log` and `lib.inspect`
+--- Debugging any variable with `lib.log` and `lib.any.inspect`
 ---
 ---```lua
 ---dump({ "Hello", "World!" })
